@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your external CSS file (if any) -->
+    <link rel="icon" href="CODE.ico" type="image/ico">
+    <link rel="shortcut icon" href="CODE.ico" type="image/ico">
+    <style>
+        /* Internal CSS styles can be added here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('Rico.png');
+            background-repeat: no-repeat;;
+        }
+        header {
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            background: transparent;
+            backdrop-filter: blur(10px);
+            box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.1);
+        }
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
+          }  
+         
+          </style>
+</head>
+<body>
+    <!--Header-->
+    <header>
+        <h2 class="logo">Coding</h2>
+        <nav class="navigation">
+            <a href="#">Home</a>
+            <a href="#">Contact</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <button class="btnlogin-popup">Login</button>
+        </nav>
+    </header>
+    <!--halaman login-->
+    <div class="wrapper">
+        <div class="form-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                    <input type="email" required>
+                    <label>Password</label>
+                </div>
+                <div class="ingat">
+                    <label><input type="checkbox">
+                        simpan password</label>
+                        <a href="#">Lupa password?</a>
+                </div>
+                <button type="submit" class="btn">Login</button>
+                <div class="Login-register">
+                    <p>Buat akun baru?<a href="#" class="register-link"> Daftar </a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!--halaman daftar-->
+    <div class="form-box register">
+        <h2>Daftar</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon"><ion-icon name="person"></ion-icon></span>
+                <input type="username" required>
+                <label>Username</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="input-box">
+                <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                <input type="Password" required>
+                <label>Password</label>            
+                </div>
+                <div class="ingat">
+                    <label><input type="checkbox">
+                        Simpan akun</label>
+                </div>
+                <button type="submit" class="btn">Buat Akun</button>
+                <div class="login-register">
+                    <p>Akun lama? <a href="#" class="login-link"> Login </a></p>
+                </div>
+        </form>
+    </div>
+</div>
+
+
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
